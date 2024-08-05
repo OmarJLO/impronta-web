@@ -1,0 +1,43 @@
+header {
+    background-color: $light-color;
+    .navbar-brand {
+        img {
+            max-width: 110px;
+        }
+        @media (max-width: 768px) {
+            img {
+                max-width: 90px; // Reducir tamaño del logo en pantallas más pequeñas
+            }
+        }
+        @media (max-width: 480px) {
+            img {
+                max-width: 80px; // Ajustar tamaño del logo para móviles
+            }
+        }
+    }
+    
+    .nav-link {
+        color: $dark-color;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .btn-outline-primary, .btn-primary {
+        border-radius: 50px;
+    }
+}
+
+.main-content {
+    .hero-section {
+        background: linear-gradient(to right, rgba(54, 111, 152, 0.8), rgba(60, 99, 130, 0.8)), url('../img/birds.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 100px 0;
+        color: #a56262;
+
+        .hero-buttons .btn {
+            margin: 20px 10px;
+            background-color: rgb(234, 232, 231);
+
+        }
+    }
+}
