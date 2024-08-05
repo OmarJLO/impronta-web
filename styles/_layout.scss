@@ -2,16 +2,16 @@ header {
     background-color: $light-color;
     .navbar-brand {
         img {
-            max-width: 110px;
+            max-width: 100px;
         }
         @media (max-width: 768px) {
             img {
-                max-width: 90px; // Reducir tamaño del logo en pantallas más pequeñas
+                max-width: 80px; // Reducir tamaño del logo en pantallas más pequeñas
             }
         }
         @media (max-width: 480px) {
             img {
-                max-width: 80px; // Ajustar tamaño del logo para móviles
+                max-width: 70px; // Ajustar tamaño del logo para móviles
             }
         }
     }
@@ -29,14 +29,14 @@ header {
 
 .main-content {
     .hero-section {
-        background: linear-gradient(to right, rgba(54, 111, 152, 0.8), rgba(60, 99, 130, 0.8)), url('../img/birds.jpg') no-repeat center center;
+        background: linear-gradient(to right, rgba(87, 145, 187, 0.8), rgba(60, 99, 130, 0.8)), url('../img/birds.jpg') no-repeat center center;
         background-size: cover;
         padding: 100px 0;
-        color: #a56262;
+        color: #b97c7c;
 
         .hero-buttons .btn {
             margin: 20px 10px;
-            background-color: rgb(234, 232, 231);
+            background-color: rgb(247, 243, 242);
 
         }
     }
